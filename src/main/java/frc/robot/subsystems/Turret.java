@@ -92,8 +92,8 @@ public class Turret extends SubsystemBase {
   }
 
   public double find_teeth_rotated(double m1, double m2) {
-    double val =  (462*(m1-m2));
-    double t = (val%462+462)%462;
+    double val =  (306*(m1-m2));
+    double t = (val%306+306)%306;
     return t;
   }
 }
